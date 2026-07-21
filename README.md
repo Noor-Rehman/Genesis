@@ -67,7 +67,7 @@ Traditional AI assistants operate like vending machines: you insert a question a
 
 ## Landing Experience
 
-![Landing](public/public_images/Landing.png)
+![Landing](public_images/Landing.png)
 
 The user enters a meaningful life decision rather than a simple prompt.
 
@@ -77,7 +77,7 @@ Genesis understands goals, uncertainty, and constraints before constructing a re
 
 ## AI Thinking Phase
 
-![Thinking](public/public_images/thinking.png)
+![Thinking](public_images/thinking.png)
 
 Instead of showing a spinner, Genesis visualizes how AI constructs a reasoning space:
 
@@ -91,7 +91,7 @@ Instead of showing a spinner, Genesis visualizes how AI constructs a reasoning s
 
 ## The Reasoning Universe
 
-![Universe](public/public_images/Reasoning.png)
+![Universe](public_images/Reasoning.png)
 
 Genesis generates multiple future paths.
 
@@ -109,7 +109,7 @@ Users explore possibilities instead of receiving a single recommendation.
 
 ## Deep Dive Into Any Future
 
-![Reasoning Panel](public/public_images/Observer.png)
+![Reasoning Panel](public_images/Observer.png)
 
 Every future is editable.
 
