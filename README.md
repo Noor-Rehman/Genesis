@@ -57,6 +57,74 @@ Traditional AI assistants operate like vending machines: you insert a question a
 
 ---
 
+## Demo
+
+> Example decision:
+
+"I'm a software engineer. Should I leave my stable job to build an AI startup, pursue a Master's abroad, or continue growing in my current career?"
+
+---
+
+## Landing Experience
+
+![Landing](public/screenshots/Landing.png)
+
+The user enters a meaningful life decision rather than a simple prompt.
+
+Genesis understands goals, uncertainty, and constraints before constructing a reasoning universe.
+
+---
+
+## AI Thinking Phase
+
+![Thinking](public/screenshots/thinking.png)
+
+Instead of showing a spinner, Genesis visualizes how AI constructs a reasoning space:
+
+- Understanding goals
+- Identifying constraints
+- Exploring alternatives
+- Building future worlds
+- Connecting assumptions
+
+---
+
+## The Reasoning Universe
+
+![Universe](public/screenshots/Reasoning.png)
+
+Genesis generates multiple future paths.
+
+Each path contains:
+
+- Key assumptions
+- Trade-offs
+- Risks
+- Opportunities
+- Confidence scores
+
+Users explore possibilities instead of receiving a single recommendation.
+
+---
+
+## Deep Dive Into Any Future
+
+![Reasoning Panel](public/screenshots/Observer.png)
+
+Every future is editable.
+
+Users can inspect:
+
+- Reasoning
+- Assumptions
+- Confidence
+- Evidence
+- Trade-offs
+
+Rather than hiding AI reasoning, Genesis makes it explorable.
+
+---
+
 ## 🎯 How It Works
 
 ```
