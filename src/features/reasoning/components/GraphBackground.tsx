@@ -1,0 +1,7 @@
+import { motion } from "framer-motion";
+
+const stars = [["7%", "16%", 3], ["15%", "72%", 2], ["24%", "26%", 2], ["35%", "10%", 3], ["47%", "77%", 2], ["59%", "18%", 3], ["69%", "62%", 2], ["81%", "13%", 2], ["92%", "38%", 3], ["88%", "84%", 2]] as const;
+
+export function GraphBackground() {
+  return <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden bg-[#030816]"><div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_16%,rgba(30,144,255,0.27),transparent_18%),radial-gradient(ellipse_at_13%_52%,rgba(126,34,206,0.22),transparent_31%),radial-gradient(ellipse_at_87%_52%,rgba(236,72,153,0.17),transparent_31%),radial-gradient(ellipse_at_50%_86%,rgba(8,47,73,0.42),transparent_43%),linear-gradient(180deg,#030816_0%,#050b24_52%,#020611_100%)]" /><div className="absolute left-1/2 top-[8%] size-[44rem] -translate-x-1/2 rounded-full border border-cyan-300/15 shadow-[0_0_100px_rgba(34,211,238,0.12)]" /><div className="absolute -left-40 top-[38%] size-[32rem] rounded-full border border-fuchsia-400/10 blur-[1px]" /><div className="absolute -right-40 top-[36%] size-[35rem] rounded-full border border-pink-400/10 blur-[1px]" />{stars.map(([left, top, size], index) => <motion.span animate={{ opacity: [0.25, 1, 0.25], scale: [1, 1.8, 1] }} className="absolute rounded-full bg-cyan-200 shadow-[0_0_14px_4px_rgba(96,165,250,0.6)]" key={`${left}-${top}`} style={{ height: size, left, top, width: size }} transition={{ delay: index * 0.32, duration: 3.8 + index * 0.2, repeat: Infinity }} />)}</div>;
+}
