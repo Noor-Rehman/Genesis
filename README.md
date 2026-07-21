@@ -55,6 +55,9 @@ Traditional AI assistants operate like vending machines: you insert a question a
 
 > **"The future is not something we enter. The future is something we create."**
 
+**How Codex & GPT 5.6 helped?** 
+Genesis was developed with the help of Codex powered by GPT-5.6 throughout the entire development workflow. We used it to scaffold features, refactor code, debug complex UI interactions, improve component architecture, and rapidly iterate on the reasoning visualization. The application itself currently uses an OpenRouter-compatible language model for inference so that anyone can run the project without requiring OpenAI API credits.
+
 ---
 
 ## Demo
